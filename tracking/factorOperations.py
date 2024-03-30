@@ -102,7 +102,7 @@ def joinFactors(factors: List[Factor]):
 
 
     "*** YOUR CODE HERE ***"
-    raiseNotDefined()
+    # raiseNotDefined()
     "*** END YOUR CODE HERE ***"
 
 ########### ########### ###########
@@ -153,7 +153,7 @@ def eliminateWithCallTracking(callTrackingList=None):
                     "unconditionedVariables: " + str(factor.unconditionedVariables()))
 
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
 
     return eliminate

@@ -61,7 +61,7 @@ def constructBayesNet(gameState: hunters.GameState):
     variableDomainsDict = {}
 
     "*** YOUR CODE HERE ***"
-    raiseNotDefined()
+    # # raiseNotDefined()
     "*** END YOUR CODE HERE ***"
 
     net = bn.constructEmptyBayesNet(variables, edges, variableDomainsDict)
@@ -182,7 +182,7 @@ def inferenceByVariableEliminationWithCallTracking(callTrackingList=None):
             eliminationOrder = sorted(list(eliminationVariables))
 
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
 
 
@@ -323,7 +323,7 @@ class DiscreteDistribution(dict):
         {}
         """
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
 
     def sample(self):
@@ -348,7 +348,7 @@ class DiscreteDistribution(dict):
         0.0
         """
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
 
 
@@ -423,7 +423,7 @@ class InferenceModule:
         Return the probability P(noisyDistance | pacmanPosition, ghostPosition).
         """
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
 
     def setGhostPosition(self, gameState, ghostPosition, index):
@@ -536,7 +536,7 @@ class ExactInference(InferenceModule):
         position is known.
         """
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
         self.beliefs.normalize()
     
@@ -554,7 +554,7 @@ class ExactInference(InferenceModule):
         current position is known.
         """
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
 
     def getBeliefDistribution(self):
@@ -586,7 +586,7 @@ class ParticleFilter(InferenceModule):
         """
         self.particles = []
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
 
     def getBeliefDistribution(self):
@@ -598,7 +598,7 @@ class ParticleFilter(InferenceModule):
         This function should return a normalized distribution.
         """
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
     
     ########### ########### ###########
@@ -618,7 +618,7 @@ class ParticleFilter(InferenceModule):
         the DiscreteDistribution may be useful.
         """
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
     
     ########### ########### ###########
@@ -631,6 +631,6 @@ class ParticleFilter(InferenceModule):
         gameState.
         """
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
 

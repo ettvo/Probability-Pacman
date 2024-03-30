@@ -149,5 +149,5 @@ class GreedyBustersAgent(BustersAgent):
             [beliefs for i, beliefs in enumerate(self.ghostBeliefs)
              if livingGhosts[i+1]]
         "*** YOUR CODE HERE ***"
-        raiseNotDefined()
+        # # raiseNotDefined()
         "*** END YOUR CODE HERE ***"
